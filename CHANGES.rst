@@ -5,7 +5,7 @@ Unreleased
 ----------
 
 - Keep bound-method cache invalidation scoped to instances that evaluate
-  to false.
+  to false. :issue:`700`
 
 - Add support for Python 3.15.
 - Preserve a zero timeout on ``CachedResponse`` so it disables expiration
