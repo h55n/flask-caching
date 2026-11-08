@@ -4,6 +4,9 @@ Changelog
 Unreleased
 ----------
 
+- Keep bound-method cache invalidation scoped to instances that evaluate
+  to false.
+
 - Add support for Python 3.15.
 - Preserve a zero timeout on ``CachedResponse`` so it disables expiration
   instead of falling back to the decorator's timeout.
